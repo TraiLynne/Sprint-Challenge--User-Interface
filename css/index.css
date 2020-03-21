@@ -72,8 +72,10 @@ p {
     margin: 0 auto;
 }
 
+/* Header */
 header {
     width: 100%;
+    padding: 0 2% 2%;
 }
 
 nav {
@@ -81,6 +83,14 @@ nav {
     flex-direction: row;
 }
 
+#nav-items {
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Top Content  */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -155,8 +165,18 @@ footer nav a {
     text-decoration: none;
 }
 
-@media (max-width: 768px){
+
+/* Mobile */
+@media (max-width: 500px){
     nav {
         flex-direction: column;
+    }
+
+    #logo {
+        align-self: center;
+    }
+
+    #nav-items {
+        padding: 2% 0;
     }
 }
