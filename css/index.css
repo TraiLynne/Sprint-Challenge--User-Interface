@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -67,8 +68,17 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
 }
 
 .top-content {
@@ -143,4 +153,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+    nav {
+        flex-direction: column;
+    }
 }
