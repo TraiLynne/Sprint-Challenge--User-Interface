@@ -75,7 +75,10 @@ p {
 /* Header */
 header {
     width: 100%;
-    padding: 0 2% 2%;
+    padding: 2% 2%;
+    background: rgb(255,105,180);
+    background: linear-gradient(90deg, rgba(255,105,180,1) 0%, rgba(248,131,121,1) 5%, rgba(153,0,0,1) 15%, rgba(255,215,0,1) 25%, rgba(44,132,48,1) 35%, rgba(34,139,34,1) 45%, rgba(0,128,128,1) 55%, rgba(80,166,167,1) 65%, rgba(30,144,255,1) 75%, rgba(153,50,204,1) 85%, rgba(75,0,130,1) 95%);
+    margin-bottom: 1%;
 }
 
 nav {
@@ -88,6 +91,16 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#nav-items a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-items a:hover {
+    color: white;
+    font-size: 200%;
 }
 
 /* Top Content  */
@@ -148,7 +161,8 @@ nav {
 
 footer {
     width: 100%;
-    background: black;
+    background: rgb(255,105,180);
+    background: linear-gradient(90deg, rgba(255,105,180,1) 0%, rgba(248,131,121,1) 5%, rgba(153,0,0,1) 15%, rgba(255,215,0,1) 25%, rgba(44,132,48,1) 35%, rgba(34,139,34,1) 45%, rgba(0,128,128,1) 55%, rgba(80,166,167,1) 65%, rgba(30,144,255,1) 75%, rgba(153,50,204,1) 85%, rgba(75,0,130,1) 95%);
 }
 
 footer nav {
