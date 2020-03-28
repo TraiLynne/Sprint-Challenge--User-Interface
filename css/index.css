@@ -188,10 +188,7 @@ nav {
     background: dodgerblue;
 }
 
-.middle-content .boxes .box .box1 {
-    background-color: teal;
-}
-
+/* Bottom Content  */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -249,8 +246,6 @@ footer nav a {
 
     .top-content .text-container {
         width: 98%;
-        padding: 0 1%;
-        padding-bottom: 20px;  
     }
 
     .top-content .text-container h2 {
@@ -261,5 +256,17 @@ footer nav a {
 
     .middle-content .boxes .box {
         width: 35%;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container {
+        padding: 0 1% 20px;
+    }
+
+    .bottom-content .text-container h2 {
+        text-align: center;
     }
 }
