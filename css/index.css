@@ -210,17 +210,23 @@ footer {
 }
 
 footer nav {
-    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
 }
 
 footer nav a {
-    color: white;
+    color: black;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: white;
 }
 
 
@@ -234,8 +240,9 @@ footer nav a {
         align-self: center;
     }
 
-    #nav-items {
+    #nav-items a {
         padding: 2% 0;
+        color: white;
     }
 
     /* Top Content */
@@ -268,5 +275,13 @@ footer nav a {
 
     .bottom-content .text-container h2 {
         text-align: center;
+    }
+
+    footer nav {
+        width: 100%;
+    }
+
+    footer nav a {
+        color: white;
     }
 }
