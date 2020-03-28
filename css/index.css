@@ -193,4 +193,18 @@ footer nav a {
     #nav-items {
         padding: 2% 0;
     }
+
+    .top-content {
+        flex-direction: column;
+    }
+
+    .top-content .text-container {
+        width: 98%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+
+    .top-content .text-container h2 {
+        text-align: center;
+    }
 }
